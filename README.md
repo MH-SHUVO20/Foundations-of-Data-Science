@@ -18,7 +18,6 @@
 
 ## 📋 Table of Contents
 
-- [👤 Project Owner & Author](#-project-owner--author)
 - [📌 Project Overview](#-project-overview)
 - [📁 Project Structure](#-project-structure)
 - [📦 Libraries Used](#-libraries-used)
@@ -34,32 +33,6 @@
 - [🚀 Getting Started](#-getting-started)
 - [📜 License](#-license)
 - [✍️ Author](#️-author)
-
----
-
-## 👤 Project Owner & Author
-
-<table align="center">
-  <tr>
-    <td align="center">
-      <a href="https://github.com/MH-SHUVO20">
-        <img src="https://github.com/MH-SHUVO20.png" width="110px;" style="border-radius:50%;border:3px solid #1F6FEB;" alt="MH-SHUVO20"/>
-        <br/>
-        <sub><b>MD. MEHEDI HASAN SHUVO</b></sub>
-      </a>
-    </td>
-  </tr>
-</table>
-
-<p align="center">
-  <a href="https://github.com/MH-SHUVO20">
-    <img src="https://img.shields.io/badge/GitHub-MH--SHUVO20-181717?style=for-the-badge&logo=github" />
-  </a>
-  &nbsp;
-  <img src="https://komarev.com/ghpvc/?username=MH-SHUVO20&style=for-the-badge&color=1F6FEB" />
-</p>
-
-> 💡 **This project was fully designed, developed, and owned by [MD. MEHEDI HASAN SHUVO](https://github.com/MH-SHUVO20).**
 
 ---
 
@@ -106,13 +79,13 @@ Foundations-of-Data-Science/
 
 ### Task 1 — Array Creation and Operations
 
-> **Goal:** Create different types of NumPy arrays and perform statistical and element-wise operations on them.
+> *Goal: Create different types of NumPy arrays and perform statistical and element-wise operations on them.*
 
 **What was done:**
 
-- Created a **1D array** of integers ranging from 0 to 20 using `np.arange()`
+- Created a **1D array** of integers ranging from 0 to 20
 - Created a **2D array** of shape `(4×5)` filled with random integers between 10 and 99
-- Created a **3×3 Identity Matrix** using `np.eye()`
+- Created a **3×3 Identity Matrix**
 - Computed key **statistical metrics** on the 2D array: Mean, Median, and Standard Deviation
 - Performed **array slicing** to extract the second row and third column
 - Applied **element-wise multiplication** between the reshaped 1D array and the 2D array
@@ -129,7 +102,7 @@ Foundations-of-Data-Science/
 
 ### Task 2 — Broadcasting and Reshaping
 
-> **Goal:** Demonstrate NumPy's broadcasting capability and array reshaping techniques.
+> *Goal: Demonstrate NumPy's broadcasting capability and array reshaping techniques.*
 
 **What was done:**
 
@@ -137,7 +110,7 @@ Foundations-of-Data-Science/
 - Applied **broadcasting** by adding a 1D vector `[1, 2, 3, 4]` to every row of the matrix simultaneously — without any loops
 - **Flattened** the resulting 2D matrix back into a 1D array
 
-**Key Insight:** Broadcasting allows operations between arrays of different shapes without copying data, making computations both memory-efficient and fast.
+> 💡 **Key Insight:** Broadcasting allows operations between arrays of different shapes without copying data, making computations both memory-efficient and fast.
 
 ---
 
@@ -145,7 +118,7 @@ Foundations-of-Data-Science/
 
 ### Task 3 — Working with DataFrames
 
-> **Goal:** Build a custom DataFrame, perform transformations, filter data, and export it.
+> *Goal: Build a custom DataFrame, perform transformations, filter data, and export it.*
 
 **What was done:**
 
@@ -167,16 +140,16 @@ Foundations-of-Data-Science/
 
 ### Task 4 — Data Cleaning & Analysis
 
-> **Goal:** Load a real-world dataset, inspect its quality, handle missing values, and extract statistical insights.
+> *Goal: Load a real-world dataset, inspect its quality, and extract statistical insights.*
 
 **Dataset Used:** Medical Insurance dataset (loaded directly from a public URL — no manual download needed)
 
 **What was done:**
 
-- Loaded the dataset directly from a remote URL using `pd.read_csv()`
+- Loaded the dataset directly from a remote URL
 - Inspected the **shape, column names, and data types** of all 7 features
 - Checked for **missing values** across all columns
-- Generated **descriptive statistics** (mean, std, min, max, quartiles) using `.describe()`
+- Generated **descriptive statistics** using `.describe()`
 - Analyzed the **distribution** of numerical features like age, BMI, and charges
 
 **Dataset Overview:**
@@ -196,7 +169,7 @@ Foundations-of-Data-Science/
 
 ### Task 5 — Dataset-Based Classification Evaluation
 
-> **Goal:** Train a binary classifier on a real dataset and evaluate its performance using standard ML metrics.
+> *Goal: Train a binary classifier on a real dataset and evaluate its performance using standard ML metrics.*
 
 **Dataset Used:** Iris dataset (built-in from Scikit-learn), converted to a binary problem:
 - **Class 1** → Versicolor
@@ -205,7 +178,7 @@ Foundations-of-Data-Science/
 **What was done:**
 
 - Loaded the Iris dataset and **converted it to a binary classification** problem
-- Split data into **70% training / 30% testing** sets using `train_test_split()`
+- Split data into **70% training / 30% testing** sets
 - Trained a **Logistic Regression** model on the training set
 - Generated **predictions** on the test set
 - Built and interpreted a full **Confusion Matrix**
@@ -265,8 +238,6 @@ jupyter notebook "Foundations_of_Data_Science_NumPy,_Pandas_&_Binary_Classificat
 ```
 
 ### Run on Google Colab
-
-Click below to open directly in Google Colab:
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/MH-SHUVO20/Foundations-of-Data-Science/blob/main/Foundations_of_Data_Science_NumPy%2C_Pandas_%26_Binary_Classification.ipynb)
 
